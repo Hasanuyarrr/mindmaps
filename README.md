@@ -5,44 +5,48 @@ Mermaid kullanarak bir akış diyagramı oluştur. Ana başlık "Bug Hunting Met
 1. **Find Domain** (Domain Bulma)
    - Cache Base
    - bgr.bne.net
-   - Snlookup
+   - nslookup
    - Metabigor
    - Amass Intel - ASN
-   - Domaink Tool
+   - Domnlink Tool
    - Jet.relationships.PT
    - Shodan
    - Findomain
+   - getrelationship.py
+      -echo "uber.com" | getrelationship.py   
    - Benzer Domainleri Bulmak İçin: Threatcrowd
+   - "© 2019 Twitch Interactive , Inc." inurl:twitch
 
 2. **Find Subdomain** (Alt Domain Bulma)
    - Burp Suite Spider
    - Hakrawler
-   - GeSpider
+   - GoSpider
    - Amass
    - Subfinder
    - Shosubgo
-   - Curl Buffer-Owner.Run
+   - Curl Buffer-Ower.Run
+   - fovicon to hash
+   - assetfinder
 
 3. **Subdomain Takeover** (Alt Domain Ele Geçirme)
    - Subover
    - Nuclei
 
 4. **Find URL** (URL Bulma)
-   - Kohza
+   - Katana
    - Waybackurls
    - Burp Suite (Sitemap)
 
 5. **Live URL** (Aktif URL Kontrolü)
    - Httpx
-   - Probe
+   - httprobe
 
 6. **Port Analysis** (Port Analizi)
    - Masscan
-   - DnsMasscan
+   - DnMasscan
 
 7. **Service Scan** (Servis Taraması)
-   - Nmap Service Scan
-   - OG
+   - Nmap Service Scan -oG
 
 8. **Service Brute Force** (Servis Brute Force)
    - Brutespray (Nmap çıktısı ile çalışır)
@@ -67,10 +71,10 @@ Mermaid kullanarak bir akış diyagramı oluştur. Ana başlık "Bug Hunting Met
     - Fuff config dosyaları
 
 14. **Inscope** (Yetkili Bilgi Toplama)
-    - Sadece deneme yetkili bilgileri topla
+    - Sadece domeine ait bilgileri topla
 
 15. **Github Repo Copy** (Github Repo Kopyalama)
-    - Ghrepo
+    - Ghcopy
     - Gitdump (Eski commitleri bul)
     - GitObject
 
@@ -78,13 +82,13 @@ Mermaid kullanarak bir akış diyagramı oluştur. Ana başlık "Bug Hunting Met
     - Google’da gezinerek sayfalardan linkleri toplar
 
 17. **Github Dorking**
-    - Gist Github
+    - Gist Github jaddix Github-Dorks
     - Gdalik
-    - Github-Dorks
+    
 
-18. **Log ve Arama İşlemleri**
+18. **Arama İşlemleri**
     - Find
     - Vim
     - Grep
 
-Diyagram, hiyerarşik bir ağaç yapısında olmalı. Ana başlık "Bug Hunting Metodolojisi" olacak ve alt başlıklar yukarıdaki sırayla dallanacak.
+
