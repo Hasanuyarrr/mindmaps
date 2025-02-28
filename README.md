@@ -65,7 +65,7 @@ Mermaid kullanarak bir akış diyagramı oluştur. Ana başlık "Bug Hunting Met
 
 12. **Sorting** (Sıralama İşlemi)
     - Anew
-    - Tee -2
+    - Tee -a
 
 13. **404 Handling** (404 Hataları İçin)
     - Fuff config dosyaları
@@ -83,10 +83,9 @@ Mermaid kullanarak bir akış diyagramı oluştur. Ana başlık "Bug Hunting Met
 
 17. **Github Dorking**
     - Gist Github jaddix Github-Dorks
-    - Gdalik
     
 
-18. **Arama İşlemleri**
+18. **Search Terminal**
     - Find
     - Vim
     - Grep
